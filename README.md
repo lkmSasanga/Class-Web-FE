@@ -14,6 +14,10 @@
 
 <br>
 
+## Deployed On 
+https://class-web-fe-arf7io2mu-teamdifferentone.vercel.app/
+
+<br>
 
 ## Project setup
 ```
