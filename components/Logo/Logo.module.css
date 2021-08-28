@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo span {
+  width: 37px !important;
+  height: 37px !important;
+  margin-top: 22px;
+  margin-right: 12px;
+  /* margin-right: 5px; */
+}
+
+.logo p {
+  font-size: 26px;
+  letter-spacing: 1.66px;
+  color: #ffffff;
+}
