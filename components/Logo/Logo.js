@@ -1,6 +1,6 @@
 import classes from './Logo.module.css';
 import Image from 'next/image'
-import logoImage from '.././../assets/logo.png'
+import logoImage from '.././../assets/Navigation/logo.png'
 function Logo() {
 
   return (
