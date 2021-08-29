@@ -1,18 +1,20 @@
-.logo {
+.logoContainer {
   display: flex;
   flex-direction: row;
 }
 
-.logo span {
+.logoContainer span {
   width: 37px !important;
   height: 37px !important;
   margin-top: 22px;
   margin-right: 12px;
-  /* margin-right: 5px; */
+  /* position: relative; */
 }
 
-.logo p {
+/* .logoContainer p {
   font-size: 26px;
   letter-spacing: 1.66px;
   color: #ffffff;
-}
+  position: relative;
+
+} */

@@ -14,7 +14,10 @@ function Navigation() {
       </span>
       <header className={classes.header}>
         <div className={classes.logo}>
-          <Logo />
+          <span>
+            <Logo />
+          </span>
+          <p>tuition</p>
         </div>
         <nav>
           <ul>

@@ -4,9 +4,9 @@ import logoImage from '.././../assets/Navigation/logo.png'
 function Logo() {
 
   return (
-    <div className={classes.logo}>
+    <div className={classes.logoContainer}>
     <span><Image src={logoImage} alt="logo" /></span>
-    <p>tuition</p>
+    {/* <p>tuition</p> */}
     </div>
   );
 }
