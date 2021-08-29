@@ -1,16 +1,15 @@
-.navContainer{
-    padding-top: 0;
-    position: relative;
-    left: 0;
-    top: -35px;
+.navContainer {
+  padding-top: 0;
+  position: relative;
+  left: 0;
+  top: -35px;
 }
 .navContainer span {
-    position: absolute;
-    
+  position: absolute;
 }
-.logo{
-    top: 22px;
-    /* left: 155px; */
+.logo {
+  top: 22px;
+  /* left: 155px; */
 }
 
 .header {
@@ -48,22 +47,22 @@
   font-size: 18px;
   color: #ffffff;
 }
-.rightHeaderContainer{
-    display: flex;
-    flex-direction: row;
+.rightHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  left: 1606px;
 }
 
 .rightHeaderContainer span {
   color: white;
   margin-right: 28px;
-  /* left: 1606px; */
   /* margin-top: 29px; */
+  position: relative;
 }
 
 .button {
   width: 93px;
   height: 32px;
-  left: 1658px;
   font-size: 18px;
   letter-spacing: 0.72px;
   color: #246deb;
