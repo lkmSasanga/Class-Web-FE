@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Logo from "../Logo/Logo";
-// import { FaSearch } from "react-icons/fa";
 import Image from "next/image";
 import searchIcon from "../../assets/Navigation/searchIcon.svg";
 import heroHead from "../../assets/Hero/HeroHead.png";
@@ -13,12 +12,14 @@ function Navigation() {
         <Image src={heroHead} alt="hero" />
       </span>
       <header className={classes.header}>
+      
         <div className={classes.logo}>
           <span>
             <Logo />
           </span>
           <p>tuition</p>
         </div>
+
         <nav>
           <ul>
             <li>

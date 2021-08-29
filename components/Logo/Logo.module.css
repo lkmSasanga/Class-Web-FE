@@ -4,8 +4,8 @@
 }
 
 .logoContainer span {
-  width: 37px !important;
-  height: 37px !important;
+  width: 37px;
+  height: 37px;
   margin-top: 22px;
   margin-right: 12px;
   /* position: relative; */
