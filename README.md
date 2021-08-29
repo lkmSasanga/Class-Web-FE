@@ -15,7 +15,7 @@
 <br>
 
 ## Deployed On 
-https://class-web-fe-o38tci7fn-teamdifferentone.vercel.app/
+https://class-web-fe.vercel.app/
 
 <br>
 
