@@ -2,7 +2,7 @@
     padding-top: 0;
     position: relative;
     left: 0;
-    top: 0;
+    top: -35px;
 }
 .navContainer span {
     position: absolute;
@@ -56,7 +56,7 @@
 .rightHeaderContainer span {
   color: white;
   margin-right: 28px;
-  left: 1606px;
+  /* left: 1606px; */
   /* margin-top: 29px; */
 }
 
