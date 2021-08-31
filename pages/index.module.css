@@ -1,0 +1,71 @@
+.mainContainer{
+    margin-top:100px;
+    padding-top: 83px;
+    display: flex;
+}
+
+.leftContainer{
+    text-align: center;
+    
+    width: 800px;
+    display: inline-block;
+    
+}
+
+.p1{
+    color: #0458E4;
+    font-family:normal normal bold 16px/19px Roboto;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    opacity: 1;
+}
+
+.p2{
+    color:#001737;
+    font-family:  normal normal 900 67px/81px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+    font-size: 67px;
+}
+
+.p3{
+    color: #7A7F86;
+    font-family: normal normal 600 27px/37px Open Sans;
+    letter-spacing: 0.81px;
+    opacity: 1;
+    font-size: 27px;
+    
+}
+
+.buttonTeacher{
+    width: 198px;
+    height: 61px;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color:#FFFFFF;
+    background: transparent linear-gradient(180deg, #2A78FF 0%, #246DEB 100%) 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    margin-right: 49px;
+  }
+
+.buttonStudent{
+    width: 198px;
+    height: 61px;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #2670F1;
+    border: 2px solid #246DEB;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    outline: 0;
+    border: 2px solid #246DEB;
+    cursor: pointer;
+  }
+
+.rightContainer{
+    margin-top:131px ;
+   
+}

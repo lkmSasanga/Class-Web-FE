@@ -1,0 +1,32 @@
+.mainCard {
+  margin: auto;
+  margin-top: 59px;
+  width: 609px;
+  height: 806px;
+  padding: 10px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.topContainer {
+  display: flex;
+}
+
+.userImageContainer {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: red;
+  margin-top: 18px;
+  margin-left: 26px;
+  margin-right: 17px;
+}
+
+.postContainer span {
+  width: 555px;
+  height: 548px;
+  border: blue;
+  border-style: solid 1px;
+}
