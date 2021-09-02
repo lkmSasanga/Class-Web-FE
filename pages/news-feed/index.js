@@ -24,7 +24,7 @@ function Newsfeed() {
           </div>
         
         </div>
-        <div classname={classes.postContainer}>
+        <div className={classes.postContainer}>
         <span>
             <Image src={HeroMainImage} alt="HeroMainImage" />
           </span>
