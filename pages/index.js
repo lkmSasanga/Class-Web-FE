@@ -17,8 +17,7 @@ export default function Home() {
   };
 
   return (
-
-    /*------------------------------Navigation Bar----------------------------------------------------------*/
+/*----------------------------------Navigation Bar----------------------------------------------------------*/
     <div>
       <div className={classes.navContainer}>
         <span>
@@ -27,9 +26,9 @@ export default function Home() {
         <Navigation />
       </div>
 
-     {/*----------------------------First Container Create-------------------------------------------------- */ }
+{/*----------------------------First Container Create-------------------------------------------------- */}
 
-      <div className={classes.firstMainContainer}>
+      <div className={classes.mainContainer}>
         <div className={classes.firstLeftContainer}>
           <p className={classes.p1}>LOREM IPSUM DOLOR SIT</p>
           <p className={classes.p2}>
@@ -45,33 +44,43 @@ export default function Home() {
           <button className={classes.buttonStudent} onClick={onClickStudent}>
             Student
           </button>
+          <div className={classes.secondLeftContainer}>
+          <span>
+            <Image src={LandingAboutUs} alt="LandingAboutUs" />
+          </span>
+        </div>
+
         </div>
 
         <div className={classes.firstRightContainer}>
           <span>
             <Image src={HeroMainImage} alt="HeroMainImage" />
           </span>
+
+{/*-------------------------------------- second two container create---------------------------- */}
+
+          <div className={classes.secondRightContainer}>
+          <p className={classes.p4}>WELCOME TO tuition</p>
+          <p className={classes.p5}>SRI LANKA #1 MOKAKHARI PLATFORM</p>
+          <p className={classes.p6}>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.
+          </p>
+          <button className={classes.buttonAboutUs} >
+            About Us
+          </button>
+        </div>
         </div>
       </div>
 
-{/*----------------------------Second Container Create-------------------------------------------------- */ }
-
-      <div className={classes.secondtMainContainer}>
-        <div className={classes.secondLeftContainer}>
-          <span>
-            <Image src={LandingAboutUs} alt="LandingAboutUs" />
-          </span>
-
-        </div>
       
-        <div className={classes.firstRightContainer}>
-          
-
-         
-        </div>
-      </div>
-
-
     </div>
   );
 }

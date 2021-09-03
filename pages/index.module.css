@@ -1,3 +1,5 @@
+/*-------------------------------- Navigation--------------------------------------------------- */
+
 .navContainer {
   padding-top: 28px;
   position: relative;
@@ -7,17 +9,18 @@
 }
 .navContainer span {
   position: absolute;
+  height: 316px;
 }
 
-.firstMainContainer {
-  margin-top: 100px;
-  padding-top: 83px;
+/*-------------------------- First two containers-------------------------------------------------- */
+.mainContainer {
+  margin-top: 140px;
   display: flex;
 }
 
 .firstLeftContainer {
   text-align: center;
-  width: 800px;
+  width: 907px;
 }
 
 .p1 {
@@ -57,6 +60,7 @@
   border: none;
   cursor: pointer;
   margin-right: 49px;
+  margin-bottom: 130px;
 }
 
 .buttonStudent {
@@ -71,8 +75,54 @@
   outline: 0;
   border: 2px solid #246deb;
   cursor: pointer;
+  margin-bottom: 130px;
 }
 
 .firstRightContainer {
   margin-top: 131px;
+  width: 910px;
+}
+
+/*-------------------------- Second two containers-------------------------------------------------- */
+
+.secondRightContainer {
+  margin-top: 220px;
+  text-align: right;
+}
+
+.p4 {
+  font-family: normal normal 900 44px/53px Roboto;
+  font-size: 44px;
+  letter-spacing: 1.76px;
+  color: #001737;
+}
+
+.p5 {
+  font-family: normal normal normal 27px/37px Open Sans;
+  letter-spacing: 1.08px;
+  color: #68696b;
+  font-size: 27px;
+}
+
+.p6 {
+  font-family: normal normal normal 20px/27px Open Sans;
+  letter-spacing: 1px;
+  color: #000000;
+  font-size: 20px;
+}
+
+.buttonAboutUs {
+  font-family: normal normal 600 20px/27px Open Sans;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  width: 198px;
+  height: 61px;
+  font-size: 20px;
+  margin-top: 41px;
+  background: transparent linear-gradient(180deg, #2a78ff 0%, #246deb 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 7px;
+  outline: 0;
+  border: none;
+  cursor: pointer;
 }
