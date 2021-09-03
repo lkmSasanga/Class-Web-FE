@@ -2,7 +2,8 @@ import Navigation from "../components/Navigation/Navigation";
 import classes from "./index.module.css";
 import Image from "next/image";
 import HeroMainImage from "../assets/Hero/HeroMainImage.png";
-import heroHead from "../assets/Hero/HeroHead.png";
+import HeroHead from "../assets/Hero/HeroHead.png";
+import LandingAboutUs from "../assets/Hero/LandingAboutUs.png";
 
 export default function Home() {
   const onClickTeacher = (e) => {
@@ -16,17 +17,20 @@ export default function Home() {
   };
 
   return (
+
+    /*------------------------------Navigation Bar----------------------------------------------------------*/
     <div>
-    <div className={classes.navContainer}>
-    <span>
-        <Image src={heroHead} alt="hero" />
-      </span>
-    <Navigation />
+      <div className={classes.navContainer}>
+        <span>
+          <Image src={HeroHead} alt="hero" />
+        </span>
+        <Navigation />
+      </div>
 
-    </div>
+     {/*----------------------------First Container Create-------------------------------------------------- */ }
 
-      <div className={classes.mainContainer}>
-        <div className={classes.leftContainer}>
+      <div className={classes.firstMainContainer}>
+        <div className={classes.firstLeftContainer}>
           <p className={classes.p1}>LOREM IPSUM DOLOR SIT</p>
           <p className={classes.p2}>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr
@@ -43,14 +47,31 @@ export default function Home() {
           </button>
         </div>
 
-        <div className={classes.rightContainer}>
+        <div className={classes.firstRightContainer}>
           <span>
             <Image src={HeroMainImage} alt="HeroMainImage" />
           </span>
-
-          <span></span>
         </div>
       </div>
+
+{/*----------------------------Second Container Create-------------------------------------------------- */ }
+
+      <div className={classes.secondtMainContainer}>
+        <div className={classes.secondLeftContainer}>
+          <span>
+            <Image src={LandingAboutUs} alt="LandingAboutUs" />
+          </span>
+
+        </div>
+      
+        <div className={classes.firstRightContainer}>
+          
+
+         
+        </div>
+      </div>
+
+
     </div>
   );
 }

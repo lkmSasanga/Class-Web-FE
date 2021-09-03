@@ -7,7 +7,7 @@ import HeroMainImage from "../../assets/Hero/HeroMainImage.png";
 function Newsfeed() {
   return (
     <div>
-      {/* <Navigation /> */}
+      <Navigation />
       <div className={classes.mainCard}>
         <div className={classes.topContainer}>
           <div className={classes.userImageContainer}>
