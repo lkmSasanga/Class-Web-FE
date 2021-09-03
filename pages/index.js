@@ -2,6 +2,7 @@ import Navigation from "../components/Navigation/Navigation";
 import classes from "./index.module.css";
 import Image from "next/image";
 import HeroMainImage from "../assets/Hero/HeroMainImage.png";
+import heroHead from "../assets/Hero/HeroHead.png";
 
 export default function Home() {
   const onClickTeacher = (e) => {
@@ -16,7 +17,13 @@ export default function Home() {
 
   return (
     <div>
-      <Navigation />
+    <div className={classes.navContainer}>
+    <span>
+        <Image src={heroHead} alt="hero" />
+      </span>
+    <Navigation />
+
+    </div>
 
       <div className={classes.mainContainer}>
         <div className={classes.leftContainer}>

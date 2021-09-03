@@ -2,14 +2,14 @@ import Link from "next/link";
 import Logo from "../Logo/Logo";
 import Image from "next/image";
 import searchIcon from "../../assets/Navigation/searchIcon.svg";
-import heroHead from "../../assets/Hero/HeroHead.png";
+// import heroHead from "../../assets/Hero/HeroHead.png";
 import classes from "./Navigation.module.css";
 
 function Navigation() {
   return (
     <div className={classes.navContainer}>
       <span>
-        <Image src={heroHead} alt="hero" />
+        {/* <Image src={heroHead} alt="hero" /> */}
       </span>
       <header className={classes.header}>
       
