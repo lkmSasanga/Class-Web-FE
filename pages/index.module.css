@@ -130,43 +130,62 @@
 
 /*-------------------------- Third container-------------------------------------------------- */
 
-.thirdContainer{
+.thirdContainer {
   text-align: center;
-  
 }
 
 /*-------------------------- Image container-------------------------------------------------- */
 
-.pictureContainer{
+.pictureContainer {
   display: flex;
 }
 
-.imageOne{
+.imageOne {
   margin-left: 281px;
   margin-right: 27px;
-
 }
 
-.imageTwo{
+.imageTwo {
   margin-top: 27px;
   margin-right: 27px;
-
 }
 
-.imageThree{
+.imageThree {
   margin-top: 54px;
   margin-right: 27px;
-
 }
 
-.imageFour{
+.imageFour {
   margin-top: 27px;
   margin-right: 27px;
-
 }
 
-.imageFive{
+.imageFive {
   margin-right: 281px;
-  
+}
 
+.question {
+  text-align: center;
+}
+
+.p7 {
+  text-align: center;
+  font-family: normal normal normal 27px/37px Open Sans;
+  letter-spacing: 1.08px;
+  color: #001737;
+  font-size: 27px;
+}
+.buttonContctUs {
+  background: transparent linear-gradient(180deg, #2a78ff 0%, #246deb 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 7px;
+  font-family: normal normal 600 20px/27px Open Sans;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  width: 198px;
+  height: 61px;
+  font-size: 20px;
+  outline: 0;
+  border: none;
+  cursor: pointer;
 }

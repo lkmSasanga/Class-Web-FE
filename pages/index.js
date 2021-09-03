@@ -10,9 +10,6 @@ import imageThree from "../assets/Hero/imageThree.png";
 import imageFour from "../assets/Hero/imageFour.png";
 import imageFive from "../assets/Hero/imageFive.png";
 
-
-
-
 export default function Home() {
   const onClickTeacher = (e) => {
     e.preventDefault();
@@ -98,13 +95,14 @@ export default function Home() {
         </p>
       </div>
 
+      {/*----------------------------Image Container Create-------------------------------------------------- */}
       <div className={classes.pictureContainer}>
         <div className={classes.imageOne}>
           <span>
             <Image src={imageOne} alt="imageOne" />
           </span>
         </div>
-        
+
         <div className={classes.imageTwo}>
           <span>
             <Image src={imageTwo} alt="imageTwo" />
@@ -127,8 +125,13 @@ export default function Home() {
             <Image src={imageFive} alt="imageFive" />
           </span>
         </div>
-        </div>
-        
+      </div>
+      <div className={classes.question}>
+        <p className={classes.p7}>
+          Questions?{" "}
+          <button className={classes.buttonContctUs}>Contact Us</button>
+        </p>
+      </div>
     </div>
   );
 }
