@@ -9,6 +9,10 @@ import imageTwo from "../assets/Hero/imageTwo.png";
 import imageThree from "../assets/Hero/imageThree.png";
 import imageFour from "../assets/Hero/imageFour.png";
 import imageFive from "../assets/Hero/imageFive.png";
+import Card1 from "../assets/Hero/Card1.png";
+import Card2 from "../assets/Hero/Card2.png";
+import Card3 from "../assets/Hero/Card3.png";
+import CardProfile1 from "../assets/Hero/CardProfile1.png";
 
 export default function Home() {
   const onClickTeacher = (e) => {
@@ -128,9 +132,60 @@ export default function Home() {
       </div>
       <div className={classes.question}>
         <p className={classes.p7}>
-          Questions?{" "}
+          Questions?
           <button className={classes.buttonContctUs}>Contact Us</button>
         </p>
+      </div>
+
+      {/*--------------------------------------- Card container------------------------------------ */}
+
+      <p className={classes.p4}>What our Customers are saying...</p>
+      <div className={classes.cardContainer}>
+        <div className={classes.cardOne}>
+          <p className={classes.p8}>
+            "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet."
+          </p>
+          <div className={classes.card}>
+          <span>
+            <Image src={Card1} alt="Card1" />
+          </span>
+          
+        </div>
+         
+        </div>
+        
+        <div className={classes.cardTwo}>
+          <p className={classes.p8}>
+            "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet."
+          </p>
+          <div className={classes.card}>
+          <span>
+            <Image src={Card2} alt="Card2" />
+          </span>
+        </div>
+        </div>
+        <div className={classes.cardThree}>
+          <p className={classes.p8}>
+            "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet."
+          </p>
+          <div className={classes.card}>
+          <span>
+            <Image src={Card3} alt="Card3" />
+          </span>
+        </div>
+        </div>
       </div>
     </div>
   );

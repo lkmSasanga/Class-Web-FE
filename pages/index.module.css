@@ -95,6 +95,7 @@
   font-size: 44px;
   letter-spacing: 1.76px;
   color: #001737;
+  text-align: center;
 }
 
 .p5 {
@@ -188,4 +189,54 @@
   outline: 0;
   border: none;
   cursor: pointer;
+  margin-left: 34px;
+}
+
+/*--------------------------------- Card container-------------------------------------- */
+
+.cardContainer{
+  display: flex;
+}
+
+.cardOne{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 7px 27px #00000029;
+width: 426px;
+height: 546px;
+margin-left: 193px;
+margin-right: 128px;
+
+}
+
+.cardTwo{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 7px 27px #00000029;
+width: 426px;
+height: 546px;
+margin-right: 128px;
+
+}
+
+.cardThree{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 7px 27px #00000029;
+width: 426px;
+height: 546px;
+margin-right: 193px;
+
+}
+
+.card{
+  margin-top: 222px;
+  padding-bottom: 20px;
+}
+ .p8{
+  text-align: center;
+  font-family: normal normal normal 21px/28px Open Sans;
+  letter-spacing: 0.21px;
+  color: #4B4B4B;
+ }
+
+.CardProfile1{
+  width: 95px;
 }
