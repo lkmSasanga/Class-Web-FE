@@ -1,9 +1,17 @@
-import Navigation from "../components/Navigation/Navigation";
+// import Toolbar from '../components/Navigation/Toolbar/Toolbar';
+import Navigation from '../components/Navigation/Navigation'
+import BootstrapNavigation from '../components/BootstrapNav/BootstrapNav'
+import MobileNavigation from '../components/MobileNavigation/MobileNavigation'
 import classes from "./index.module.css";
 import Image from "next/image";
 import HeroMainImage from "../assets/Hero/HeroMainImage.png";
+import 'bootstrap/dist/css/bootstrap.css'
+
+// import React, { useState, useEffect } from 'react';
 
 export default function Home() {
+  // const [isMobile, setIsMobile] = useState(false);
+
   const onClickTeacher = (e) => {
     e.preventDefault();
     console.log("clicked on teacher");
@@ -16,7 +24,8 @@ export default function Home() {
 
   return (
     <div>
-      <Navigation />
+      {/* <Navigation /> */}
+      <BootstrapNavigation/>
 
       <div className={classes.mainContainer}>
         <div className={classes.leftContainer}>
