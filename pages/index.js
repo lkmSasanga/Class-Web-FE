@@ -1,18 +1,27 @@
+import { useEffect, useState } from "react";
 import Navigation from "../components/Navigation/Navigation";
 import classes from "./index.module.css";
 import Image from "next/image";
 import HeroMainImage from "../assets/Hero/HeroMainImage.png";
 
 export default function Home() {
-  const onClickTeacher = (e) => {
+  const [user, setUser] = useState("");
+
+  const onClickTeacher = e => {
     e.preventDefault();
+    setUser("TEACHER");
     console.log("clicked on teacher");
   };
 
-  const onClickStudent = (e) => {
+  const onClickStudent = e => {
     e.preventDefault();
+    setUser("STUDENT");
     console.log("Clicked on student ");
   };
+
+  useEffect(() => {
+    console.log("useEffect running...");
+  });
 
   return (
     <div>
