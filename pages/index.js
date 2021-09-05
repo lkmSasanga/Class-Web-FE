@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import Navigation from "../components/Navigation/Navigation";
 import classes from "./index.module.css";
 import Image from "next/image";
@@ -8,19 +9,18 @@ export default function Home() {
   const [user, setUser] = useState("");
 
   const onClickTeacher = e => {
-    e.preventDefault();
     setUser("TEACHER");
     console.log("clicked on teacher");
   };
 
   const onClickStudent = e => {
-    e.preventDefault();
     setUser("STUDENT");
     console.log("Clicked on student ");
   };
 
   useEffect(() => {
     console.log("useEffect running...");
+    if (user) console.log("user", user);
   });
 
   return (
@@ -37,12 +37,16 @@ export default function Home() {
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor.
           </p>
-          <button className={classes.buttonTeacher} onClick={onClickTeacher}>
-            Teacher
-          </button>
-          <button className={classes.buttonStudent} onClick={onClickStudent}>
-            Student
-          </button>
+          <Link href="/news-feed">
+            <button className={classes.buttonTeacher} onClick={onClickTeacher}>
+              Teacher
+            </button>
+          </Link>
+          <Link href="/news-feed">
+            <button className={classes.buttonStudent} onClick={onClickStudent}>
+              Student
+            </button>
+          </Link>
         </div>
 
         <div className={classes.rightContainer}>
