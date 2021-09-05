@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-// import Toolbar from '../components/Navigation/Toolbar/Toolbar';
-import Navigation from '../components/Navigation/Navigation'
-import BootstrapNavigation from '../components/BootstrapNav/BootstrapNav'
-import MobileNavigation from '../components/MobileNavigation/MobileNavigation'
-import classes from "./index.module.css";
-import Image from "next/image";
-import HeroMainImage from "../assets/Hero/HeroMainImage.png";
-import 'bootstrap/dist/css/bootstrap.css'
-
-// import React, { useState, useEffect } from 'react';
-
-export default function Home() {
-  // const [isMobile, setIsMobile] = useState(false);
-
-  const onClickTeacher = (e) => {
-    e.preventDefault();
-=======
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import MainNavigation from "../components/Navigation/MainNavigation/MainNavigation";
@@ -29,7 +11,6 @@ export default function Home() {
 
   const onClickTeacher = e => {
     setUser("TEACHER");
->>>>>>> 4a4fcd4c079be1aa03db622c78845605eb732c14
     console.log("clicked on teacher");
   };
 
@@ -45,10 +26,6 @@ export default function Home() {
 
   return (
     <div>
-<<<<<<< HEAD
-      {/* <Navigation /> */}
-      <BootstrapNavigation/>
-=======
       {/* <div className={classes.navContainer}>
         <span>
           <Image src={heroHead} alt="hero" />
@@ -57,7 +34,6 @@ export default function Home() {
       </div> */}
       <MainNavigation/>
 
->>>>>>> 4a4fcd4c079be1aa03db622c78845605eb732c14
 
       <div className={classes.mainContainer}>
         <div className={classes.leftContainer}>
