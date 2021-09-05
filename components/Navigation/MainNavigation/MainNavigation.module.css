@@ -13,6 +13,7 @@
   flex-direction: row;
   top: 22px;
   cursor: pointer;
+  /* position: absolute; */
 }
 
 .logo span {
@@ -23,7 +24,8 @@
   font-size: 26px;
   letter-spacing: 1.66px;
   color: #ffffff;
-  /* position: relative; */
+  position: relative;
+
 }
 
 .header {
@@ -73,6 +75,7 @@
   /* margin-top: 29px; */
   position: relative;
   cursor: pointer;
+  /* padding-left: 100px; */
 }
 
 .button {

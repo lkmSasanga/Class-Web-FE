@@ -1,9 +1,9 @@
 import Link from "next/link";
-import Logo from "../Logo/Logo";
+import Logo from "../../Logo/Logo";
 import Image from "next/image";
-import searchIcon from "../../assets/Navigation/searchIcon.svg";
-import heroHead from "../../assets/Hero/HeroHead.png";
-import classes from "./Navigation.module.css";
+import searchIcon from "../../../assets/Navigation/searchIcon.svg";
+import heroHead from "../../../assets/Hero/HeroHead.png";
+import classes from "./MainNavigation.module.css";
 
 function Navigation() {
   return (
