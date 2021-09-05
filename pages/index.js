@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Navigation from "../components/Navigation/Navigation";
+import MainNavigation from "../components/Navigation/MainNavigation/MainNavigation";
 import classes from "./index.module.css";
 import Image from "next/image";
 import HeroMainImage from "../assets/Hero/HeroMainImage.png";
-import heroHead from "../assets/Hero/HeroHead.png";
+// import heroHead from "../assets/Hero/HeroHead.png";
 
 export default function Home() {
   const [user, setUser] = useState("");
@@ -32,7 +32,7 @@ export default function Home() {
         </span>
           <Navigation className={classes.navigation}/>
       </div> */}
-      <Navigation/>
+      <MainNavigation/>
 
 
       <div className={classes.mainContainer}>
