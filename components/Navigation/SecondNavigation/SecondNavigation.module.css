@@ -8,6 +8,8 @@
 }
 .navContainer span {
   position: absolute;
+  height: 27px;
+  width: 100%;
 }
 .logo {
   display: flex;
