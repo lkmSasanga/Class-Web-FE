@@ -32,8 +32,7 @@ export default function Home() {
         </span>
           <Navigation className={classes.navigation}/>
       </div> */}
-      <MainNavigation/>
-
+      <MainNavigation />
 
       <div className={classes.mainContainer}>
         <div className={classes.leftContainer}>
