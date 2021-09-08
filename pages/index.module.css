@@ -1,86 +1,242 @@
+/*-------------------------------- Navigation--------------------------------------------------- */
+
 .navContainer {
-    padding-top: 28px;
-    position: relative;
-    left: 0;
-    top: -35px;
-    font-size: 18px;
-  }
-  .navContainer span {
-    position: absolute;
-  }
-  .navigation{
-      position: absolute;
-  }
-
-
-.mainContainer{
-    margin-top:100px;
-    padding-top: 83px;
-    display: flex;
+  padding-top: 28px;
+  position: relative;
+  left: 0;
+  top: -35px;
+  font-size: 18px;
+}
+.navContainer span {
+  position: absolute;
+  height: 316px;
 }
 
-.leftContainer{
-    text-align: center;
-    
-    width: 800px;
-    
-    
+/*-------------------------- First two containers-------------------------------------------------- */
+.mainContainer {
+  margin-top: 140px;
+  display: flex;
 }
 
-.p1{
-    color: #0458E4;
-    font-family:normal normal bold 16px/19px Roboto;
-    font-weight: bold;
-    letter-spacing: 1.6px;
-    opacity: 1;
+.firstLeftContainer {
+  text-align: center;
+  width: 907px;
 }
 
-.p2{
-    color:#001737;
-    font-family:  normal normal 900 67px/81px Roboto;
-    letter-spacing: 0px;
-    opacity: 1;
-    font-size: 67px;
+.p1 {
+  color: #0458e4;
+  font-family: normal normal bold 16px/19px Roboto;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  opacity: 1;
 }
 
-.p3{
-    color: #7A7F86;
-    font-family: normal normal 600 27px/37px Open Sans;
-    letter-spacing: 0.81px;
-    opacity: 1;
-    font-size: 27px;
-    
+.p2 {
+  color: #001737;
+  font-family: normal normal 900 67px/81px Roboto;
+  letter-spacing: 0px;
+  opacity: 1;
+  font-size: 67px;
 }
 
-.buttonTeacher{
-    width: 198px;
-    height: 61px;
-    font-size: 25px;
-    letter-spacing: 0.5px;
-    color:#FFFFFF;
-    background: transparent linear-gradient(180deg, #2A78FF 0%, #246DEB 100%) 0% 0% no-repeat padding-box;
-    border-radius: 7px;
-    outline: 0;
-    border: none;
-    cursor: pointer;
-    margin-right: 49px;
-  }
+.p3 {
+  color: #7a7f86;
+  font-family: normal normal 600 27px/37px Open Sans;
+  letter-spacing: 0.81px;
+  opacity: 1;
+  font-size: 27px;
+}
 
-.buttonStudent{
-    width: 198px;
-    height: 61px;
-    font-size: 25px;
-    letter-spacing: 0.5px;
-    color: #2670F1;
-    border: 2px solid #246DEB;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border-radius: 7px;
-    outline: 0;
-    border: 2px solid #246DEB;
-    cursor: pointer;
-  }
+.buttonTeacher {
+  width: 198px;
+  height: 61px;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  background: transparent linear-gradient(180deg, #2a78ff 0%, #246deb 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 7px;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  margin-right: 49px;
+  margin-bottom: 130px;
+}
 
-.rightContainer{
-    margin-top:131px ;
-   
+.buttonStudent {
+  width: 198px;
+  height: 61px;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  color: #2670f1;
+  border: 2px solid #246deb;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  outline: 0;
+  border: 2px solid #246deb;
+  cursor: pointer;
+  margin-bottom: 130px;
+}
+
+.firstRightContainer {
+  margin-top: 131px;
+  width: 910px;
+}
+
+/*-------------------------- Second two containers-------------------------------------------------- */
+
+.secondRightContainer {
+  margin-top: 220px;
+  text-align: right;
+}
+
+.p4 {
+  font-family: normal normal 900 44px/53px Roboto;
+  font-size: 44px;
+  letter-spacing: 1.76px;
+  color: #001737;
+  text-align: center;
+}
+
+.p5 {
+  font-family: normal normal normal 27px/37px Open Sans;
+  letter-spacing: 1.08px;
+  color: #68696b;
+  font-size: 27px;
+}
+
+.p6 {
+  font-family: normal normal normal 20px/27px Open Sans;
+  letter-spacing: 1px;
+  color: #000000;
+  font-size: 20px;
+}
+
+.buttonAboutUs {
+  font-family: normal normal 600 20px/27px Open Sans;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  width: 198px;
+  height: 61px;
+  font-size: 20px;
+  margin-top: 41px;
+  background: transparent linear-gradient(180deg, #2a78ff 0%, #246deb 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 7px;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+/*-------------------------- Third container-------------------------------------------------- */
+
+.thirdContainer {
+  text-align: center;
+}
+
+/*-------------------------- Image container-------------------------------------------------- */
+
+.pictureContainer {
+  display: flex;
+}
+
+.imageOne {
+  margin-left: 281px;
+  margin-right: 27px;
+}
+
+.imageTwo {
+  margin-top: 27px;
+  margin-right: 27px;
+}
+
+.imageThree {
+  margin-top: 54px;
+  margin-right: 27px;
+}
+
+.imageFour {
+  margin-top: 27px;
+  margin-right: 27px;
+}
+
+.imageFive {
+  margin-right: 281px;
+}
+
+.question {
+  text-align: center;
+}
+
+.p7 {
+  text-align: center;
+  font-family: normal normal normal 27px/37px Open Sans;
+  letter-spacing: 1.08px;
+  color: #001737;
+  font-size: 27px;
+}
+.buttonContctUs {
+  background: transparent linear-gradient(180deg, #2a78ff 0%, #246deb 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 7px;
+  font-family: normal normal 600 20px/27px Open Sans;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  width: 198px;
+  height: 61px;
+  font-size: 20px;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  margin-left: 34px;
+}
+
+/*--------------------------------- Card container-------------------------------------- */
+
+.cardContainer{
+  display: flex;
+}
+
+.cardOne{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 7px 27px #00000029;
+width: 426px;
+height: 546px;
+margin-left: 193px;
+margin-right: 128px;
+
+}
+
+.cardTwo{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 7px 27px #00000029;
+width: 426px;
+height: 546px;
+margin-right: 128px;
+
+}
+
+.cardThree{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 7px 27px #00000029;
+width: 426px;
+height: 546px;
+margin-right: 193px;
+
+}
+
+.card{
+  margin-top: 222px;
+  padding-bottom: 20px;
+}
+ .p8{
+  text-align: center;
+  font-family: normal normal normal 21px/28px Open Sans;
+  letter-spacing: 0.21px;
+  color: #4B4B4B;
+ }
+
+.CardProfile1{
+  width: 95px;
 }
