@@ -9,7 +9,7 @@ function Navigation() {
   return (
     <div className={classes.navContainer}>
       <span>
-        {/* <Image src={heroHead} alt="hero" /> */}
+        <Image src={heroHead} alt="hero" />
       </span>
       <header className={classes.header}>
       
